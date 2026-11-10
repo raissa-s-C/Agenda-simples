@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minhas Tarefas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Minhas Tarefas</h1>
+        <p>Organize seu dia com <b>facilidade.</b></p>
+        <div class="formulario">
+            <input id="campoTarefa" placeholder="Digite uma tarefa..." type="text">
+            <button id="botaoAdicionar">Adicionar</button>
+        </div>
+
+        <div class="filtros">
+            <button class="ativo" data-filtro="todas">Todas</button>
+            <button data-filtro="pendentes">Pendentes</button>
+            <button data-filtro="concluidas">Concluidas</button>
+        </div>
+
+        <ul id="listatarefas"></ul>
+    </div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
